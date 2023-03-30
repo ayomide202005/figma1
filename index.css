@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bar{
+    padding-left: 63%;
+}
+.container-div{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    width: 100%;
+    
+}
+#clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main-div1{
+    width: 100%;
+}
+.cont{
+   margin-top: 30px;
+   margin-left: 40px;
+}
+.main1{
+    float: left;
+}
+.main1 h5{
+    padding-top: 10px;   
+}
+.main1 p{
+   margin-top: 10px;
+}
+.main2{
+    float: right;
+}
+.number{
+    display: flex;
+    gap: 10px;
+   margin-left: 40px;
+}
+
+
+.sec1{
+    background-color:white;
+    min-height: 50px;
+    margin-top: 20px;  
+
+}
+.sec1 button{
+    margin-left: 5%;
+    text-align: center;
+
+}
+
+
+
+.container-div1{
+    margin-top: 20px;
+    width: 100%;
+}
+#clearfix1::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main-div2{
+    width: 100%;
+}
+.main3{
+    float: left;
+}
+.main3 h5{
+   margin-top: 10px;
+}
+.main3 p{
+    margin-top: 15px;
+}
+.main4{
+    float: right;
+}
+
+
+.main5{
+  width: 100%; 
+  margin-top: 20px; 
+}
+#main5-div::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.main6{
+    float: left;
+}
+.main7{
+    width: 100%;
+    justify-content: center;
+}
+.container-div2{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    float: right;
+    margin-top: 20px;
+}
+.pics1{
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+}
+.main9{
+    margin-top: 30px;
+    text-align: center;
+}
+.main10{
+  justify-content: center;  
+}
+.main11{
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
